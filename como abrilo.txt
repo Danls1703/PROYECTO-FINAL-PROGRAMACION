@@ -1,0 +1,9 @@
+cd C:\PROYECTO_API
+
+rmdir /s /q bin
+mkdir bin
+
+javac -d bin -cp "lib/*;bin" src\com\proyecto\model\*.java src\com\proyecto\repository\*.java src\com\proyecto\negocio\*.java src\com\proyecto\ui\*.java src\com\proyecto\api\*.java src\com\proyecto\service\AtletaService.java src\com\proyecto\Main.java
+
+
+java -cp "lib/*;bin" com.proyecto.Main api

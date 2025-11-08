@@ -1,0 +1,13 @@
+[ {
+  "nombre" : "Usain",
+  "apellido" : "Bolt",
+  "pais" : "JAM",
+  "edad" : 0,
+  "deporte" : {
+    "nombre" : "Atletismo",
+    "especialidad" : null,
+    "tipo" : "PISTA_Y_CAMPO"
+  },
+  "sesiones" : [ ],
+  "mejorMarcaPersonal" : 0.0
+} ]
